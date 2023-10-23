@@ -1,0 +1,4 @@
+check if you at the right folder use "dir"
+add-migration "name"
+update-database
+terminal -> cd (to the folder) -> dotnet run seeddata
