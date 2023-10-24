@@ -3607,11 +3607,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\HK5\\Net\\cuoikiNet\\netframe\\netframe.csproj",
+      "projectUniqueName": "C:\\HK5\\Net\\Asp.net_web-nhac-cu_CK\\netframe\\netframe.csproj",
       "projectName": "netframe",
-      "projectPath": "C:\\HK5\\Net\\cuoikiNet\\netframe\\netframe.csproj",
+      "projectPath": "C:\\HK5\\Net\\Asp.net_web-nhac-cu_CK\\netframe\\netframe.csproj",
       "packagesPath": "C:\\Users\\VanTien\\.nuget\\packages\\",
-      "outputPath": "C:\\HK5\\Net\\cuoikiNet\\netframe\\obj\\",
+      "outputPath": "C:\\HK5\\Net\\Asp.net_web-nhac-cu_CK\\netframe\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

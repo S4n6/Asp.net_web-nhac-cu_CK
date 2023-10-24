@@ -11,6 +11,25 @@ namespace netframe.Repository
         {
             _context = context;
         }
+
+        public bool CreateCategory(Category category)
+        {
+            _context.Add(category);
+
+            return Save();
+        }
+
+        public bool DeleteCategory(Category category)
+        {
+            _context.Remove(category);
+            return Save();
+        }
+
+        public bool ExistCategory(Guid id)
+        {
+            return _context.Categories.Any(p => p.CategoryId == id);
+        }
+
         public ICollection<Category> GetCategories()
         {
             return _context.Categories.OrderBy(p => p.parentCategoryId).ToList();
@@ -18,12 +37,24 @@ namespace netframe.Repository
 
         public Category GetCategory(Guid id)
         {
-            throw new NotImplementedException();
+            return _context.Categories.Find(id);
         }
 
         public Category GetCategory(string categoryName)
         {
-            throw new NotImplementedException();
+            return _context.Categories.Where(p => p.Name == categoryName).FirstOrDefault();
+        }
+
+        public bool Save()
+        {
+            var saved = _context.SaveChanges();
+            return saved > 0 ? true : false;
+        }
+
+        public bool UpdateCategory(Category category)
+        {
+            _context.Update(category);
+            return Save();
         }
     }
 }

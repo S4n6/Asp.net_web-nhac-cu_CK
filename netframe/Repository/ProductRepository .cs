@@ -23,9 +23,10 @@ namespace netframe.Repository
             return Save();
         }
 
-        public bool Delete(Product product)
+        public bool DeleteProduct(Product product)
         {
-            throw new NotImplementedException();
+            _context.Remove(product);
+            return Save();
         }
 
         public Product GetProduct(Guid id)
@@ -54,7 +55,7 @@ namespace netframe.Repository
             return _context.Products.Where(p => p.CategoryId == categoryId).ToList();
         }
 
-        public bool ProductExist(Guid id)
+        public bool ExistProduct(Guid id)
         {
             return _context.Products.Any(p => p.ProductId == id);
         }
@@ -65,14 +66,12 @@ namespace netframe.Repository
             return saved > 0 ? true : false;
         }
 
-        public Product Update(Product product)
-        {
-            throw new NotImplementedException();
-        }
+        
 
-        public Product UpdateProduct(Product product)
+        public bool UpdateProduct(Product product)
         {
-            throw new NotImplementedException();
+            _context.Update(product);
+            return Save();
         }
     }
 }

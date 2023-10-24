@@ -11,10 +11,10 @@ namespace netframe.Interfaces
         Product GetProduct(string productName);
 
         bool CreateProduct(Product product);
-        Product UpdateProduct(Product product);
+        bool UpdateProduct(Product product);
         bool Save();
-        bool Delete(Product product);
+        bool DeleteProduct(Product product);
         decimal? GetProductPrice(Guid id);
-        bool ProductExist(Guid id);
+        bool ExistProduct(Guid id);
     }
 }

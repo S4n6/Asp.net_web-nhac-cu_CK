@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "arpvYnXxRCMkYFtcYTShXVFcwSq6DCcxki+7lcws+ZHZO5IhqfeVUcKRhBC5nNEXV9jg00fcTMMDTMmlu9NTww==",
+  "dgSpecHash": "ELFiS/6kbU4H+DWSyZx22vOTxGuQXPSRvc4EOfrfSHWeHnzh2Ae47TnJJVqC7D49b5KX5pdyXgPPgwbnDHBcqw==",
   "success": true,
-  "projectFilePath": "C:\\HK5\\Net\\cuoikiNet\\netframe\\netframe.csproj",
+  "projectFilePath": "C:\\HK5\\Net\\Asp.net_web-nhac-cu_CK\\netframe\\netframe.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VanTien\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\VanTien\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

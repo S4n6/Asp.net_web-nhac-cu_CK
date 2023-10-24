@@ -35,7 +35,7 @@ namespace netframe.Controllers
         [ProducesResponseType(400)]
         public IActionResult GetProduct(Guid productId)
         {
-            if(!_productRepository.ProductExist(productId))
+            if(!_productRepository.ExistProduct(productId))
                 return NotFound();
             var product = _productRepository.GetProduct(productId);
 
@@ -72,6 +72,59 @@ namespace netframe.Controllers
                 return StatusCode(500, ModelState);
             }
             return Ok("Successfully created");
+        }
+
+        [HttpPut("{productId}")]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(404)]
+        public IActionResult UpdateProduct(Guid productId,[FromBody]ProductDTO updateProduct)
+        {
+            if (updateProduct == null)
+                return BadRequest(ModelState);
+
+            if(productId != updateProduct.ProductId)
+                return BadRequest(ModelState);
+
+            if(!_productRepository.ExistProduct(productId))
+                return NotFound();
+
+            if (!ModelState.IsValid) 
+                return BadRequest(ModelState);
+
+            var productMap = _mapper.Map<Product>(updateProduct);
+
+            if(!_productRepository.UpdateProduct(productMap))
+            {
+                ModelState.AddModelError("", "Something went wwrong updating product");
+                return StatusCode(500,ModelState);
+            }
+            return NoContent();
+        }
+
+
+        [HttpDelete("{productId}")]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(404)]
+        public IActionResult DeleteProduct(Guid productId)
+        {
+
+            if (!_productRepository.ExistProduct(productId))
+                return NotFound();
+
+            var productDelete = _productRepository.GetProduct(productId);
+
+
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            if (!_productRepository.DeleteProduct(productDelete))
+            {
+                ModelState.AddModelError("", "Something went wwrong deleting product");
+                return StatusCode(500, ModelState);
+            }
+            return NoContent();
         }
     }
 }
