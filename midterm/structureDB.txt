@@ -1,0 +1,61 @@
+CREATE TABLE CAR(
+  id INT IDENTITY(1,1) PRIMARY KEY,
+  seat INT,
+  brand VARCHAR(50),
+  type VARCHAR(50),
+  timeRentStart DATETIME,
+  timeRentEnd DATETIME,
+  payment FLOAT,
+  img VARBINARY(MAX)
+);
+
+CREATE TABLE CUSTOMER(
+  id VARCHAR(8) PRIMARY KEY,
+  name VARCHAR(50),
+  birthDay DATETIME,
+  address VARCHAR(100),
+  phone VARCHAR(20)
+);
+
+CREATE TABLE ORDERCAR (
+  id INT IDENTITY(1,1) PRIMARY KEY,
+  idCar INT,
+  idCustomer INT,
+  payment FLOAT,
+  timeStart VARCHAR(50),
+  timeEnd VARCHAR(50),
+  locationStart NVARCHAR(50),
+  locationEnd NVARCHAR(50),
+  carBack BIT,
+  FOREIGN KEY (idCar) REFERENCES car(id),
+  FOREIGN KEY (idCustomer) REFERENCES customer(id)
+);
+
+CREATE TABLE QTV (
+  username VARCHAR(50) PRIMARY KEY,
+  password VARCHAR(50),
+  fullName VARCHAR(100),
+  address VARCHAR(100),
+  phone VARCHAR(20),
+  role VARCHAR(20)
+);
+
+CREATE TRIGGER generate_id_trigger
+ON CUSTOMER
+INSTEAD OF INSERT
+AS
+BEGIN
+    DECLARE @new_id VARCHAR(8);
+
+    SET @new_id = RIGHT('00000000' + CAST(CHECKSUM(NEWID()) AS VARCHAR(8)), 8);
+
+    WHILE EXISTS (SELECT 1 FROM CUSTOMER WHERE id = @new_id)
+    BEGIN
+        SET @new_id = RIGHT('00000000' + CAST(CHECKSUM(NEWID()) AS VARCHAR(8)), 8);
+    END;
+
+    INSERT INTO CUSTOMER (id, name, birthDay, address, phone)
+    SELECT @new_id, name, birthDay, address, phone
+    FROM inserted;
+END;
+GO
