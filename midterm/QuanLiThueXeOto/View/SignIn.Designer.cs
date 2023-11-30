@@ -38,10 +38,10 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pbIconPassword = new System.Windows.Forms.PictureBox();
             this.btnSignIn = new System.Windows.Forms.Button();
             this.btnSignUp = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-            this.pbIconPassword = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbIconPassword)).BeginInit();
@@ -70,7 +70,7 @@
             // tbUsername
             // 
             this.tbUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbUsername.Location = new System.Drawing.Point(215, 58);
+            this.tbUsername.Location = new System.Drawing.Point(187, 38);
             this.tbUsername.Name = "tbUsername";
             this.tbUsername.Size = new System.Drawing.Size(361, 38);
             this.tbUsername.TabIndex = 2;
@@ -79,7 +79,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(49, 61);
+            this.label2.Location = new System.Drawing.Point(21, 41);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(139, 31);
             this.label2.TabIndex = 3;
@@ -89,7 +89,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(49, 141);
+            this.label3.Location = new System.Drawing.Point(21, 121);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(134, 31);
             this.label3.TabIndex = 5;
@@ -98,7 +98,7 @@
             // tbPassword
             // 
             this.tbPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbPassword.Location = new System.Drawing.Point(215, 138);
+            this.tbPassword.Location = new System.Drawing.Point(187, 118);
             this.tbPassword.Name = "tbPassword";
             this.tbPassword.PasswordChar = '*';
             this.tbPassword.Size = new System.Drawing.Size(361, 38);
@@ -131,17 +131,28 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.tbPassword);
-            this.panel1.Location = new System.Drawing.Point(546, 238);
+            this.panel1.Location = new System.Drawing.Point(537, 237);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(647, 216);
+            this.panel1.Size = new System.Drawing.Size(596, 215);
             this.panel1.TabIndex = 14;
+            // 
+            // pbIconPassword
+            // 
+            this.pbIconPassword.Image = ((System.Drawing.Image)(resources.GetObject("pbIconPassword.Image")));
+            this.pbIconPassword.Location = new System.Drawing.Point(554, 121);
+            this.pbIconPassword.Name = "pbIconPassword";
+            this.pbIconPassword.Size = new System.Drawing.Size(38, 38);
+            this.pbIconPassword.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbIconPassword.TabIndex = 6;
+            this.pbIconPassword.TabStop = false;
+            this.pbIconPassword.Click += new System.EventHandler(this.pbIconPassword_Click);
             // 
             // btnSignIn
             // 
             this.btnSignIn.BackColor = System.Drawing.Color.DarkCyan;
             this.btnSignIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSignIn.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.btnSignIn.Location = new System.Drawing.Point(924, 598);
+            this.btnSignIn.Location = new System.Drawing.Point(906, 515);
             this.btnSignIn.Name = "btnSignIn";
             this.btnSignIn.Size = new System.Drawing.Size(188, 52);
             this.btnSignIn.TabIndex = 18;
@@ -154,7 +165,7 @@
             this.btnSignUp.BackColor = System.Drawing.Color.AliceBlue;
             this.btnSignUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSignUp.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.btnSignUp.Location = new System.Drawing.Point(142, 598);
+            this.btnSignUp.Location = new System.Drawing.Point(165, 515);
             this.btnSignUp.Name = "btnSignUp";
             this.btnSignUp.Size = new System.Drawing.Size(188, 52);
             this.btnSignUp.TabIndex = 19;
@@ -173,22 +184,11 @@
             this.label6.TabIndex = 20;
             this.label6.Text = "Welcome to the endless plateau\r\n";
             // 
-            // pbIconPassword
-            // 
-            this.pbIconPassword.Image = ((System.Drawing.Image)(resources.GetObject("pbIconPassword.Image")));
-            this.pbIconPassword.Location = new System.Drawing.Point(591, 138);
-            this.pbIconPassword.Name = "pbIconPassword";
-            this.pbIconPassword.Size = new System.Drawing.Size(38, 38);
-            this.pbIconPassword.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbIconPassword.TabIndex = 6;
-            this.pbIconPassword.TabStop = false;
-            this.pbIconPassword.Click += new System.EventHandler(this.pbIconPassword_Click);
-            // 
             // SignIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1205, 709);
+            this.ClientSize = new System.Drawing.Size(1145, 628);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnSignUp);
             this.Controls.Add(this.btnSignIn);

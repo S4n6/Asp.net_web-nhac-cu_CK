@@ -48,8 +48,8 @@ namespace QuanLiThueXeOto.View
                 oderIdSelected = id;
                 DetailOrderUI detailOrderUI = new DetailOrderUI( orderController.getOrderById(id) );
                 pnDetail.Controls.Add(detailOrderUI);
-                detailOrderUI.Left = (pnDetail.Width - detailOrderUI.Width) / 2;
-                detailOrderUI.Top = (pnDetail.Height - detailOrderUI.Height) / 3;
+                //detailOrderUI.Left = (pnDetail.Width - detailOrderUI.Width) / 2;
+                //detailOrderUI.Top = (pnDetail.Height - detailOrderUI.Height) / 3;
             }
             
         }

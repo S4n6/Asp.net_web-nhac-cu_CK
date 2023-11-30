@@ -15,7 +15,7 @@ namespace QuanLiThueXeOto.DB
         public QueryDb()
         {
             // Tạo chuỗi kết nối từ thông tin được truyền vào
-            connectionString = $"Server=DESKTOP-S8O9N59\\SQLEXPRESS;Database=QLOTO;Trusted_Connection=True;";
+            connectionString = $"Server=DESKTOP-KQGV35N;Database=QLOTO;Trusted_Connection=True;";
         }
 
         public DataTable ExecuteQuery(string sqlQuery, SqlParameter[] parameters)

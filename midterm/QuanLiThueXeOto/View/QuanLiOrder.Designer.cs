@@ -46,7 +46,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(258, 37);
+            this.label1.Location = new System.Drawing.Point(145, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(246, 37);
             this.label1.TabIndex = 6;
@@ -55,9 +55,9 @@
             // btnCreateOrder
             // 
             this.btnCreateOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCreateOrder.Location = new System.Drawing.Point(757, 628);
+            this.btnCreateOrder.Location = new System.Drawing.Point(581, 496);
             this.btnCreateOrder.Name = "btnCreateOrder";
-            this.btnCreateOrder.Size = new System.Drawing.Size(161, 52);
+            this.btnCreateOrder.Size = new System.Drawing.Size(156, 47);
             this.btnCreateOrder.TabIndex = 8;
             this.btnCreateOrder.Text = "Tạo đơn đặt xe";
             this.btnCreateOrder.UseVisualStyleBackColor = true;
@@ -66,9 +66,9 @@
             // btnStatus
             // 
             this.btnStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStatus.Location = new System.Drawing.Point(1164, 628);
+            this.btnStatus.Location = new System.Drawing.Point(958, 492);
             this.btnStatus.Name = "btnStatus";
-            this.btnStatus.Size = new System.Drawing.Size(115, 52);
+            this.btnStatus.Size = new System.Drawing.Size(140, 47);
             this.btnStatus.TabIndex = 9;
             this.btnStatus.Text = "Thanh toán";
             this.btnStatus.UseVisualStyleBackColor = true;
@@ -77,17 +77,17 @@
             // pnDetail
             // 
             this.pnDetail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnDetail.Location = new System.Drawing.Point(12, 190);
+            this.pnDetail.Location = new System.Drawing.Point(12, 88);
             this.pnDetail.Name = "pnDetail";
-            this.pnDetail.Size = new System.Drawing.Size(717, 487);
+            this.pnDetail.Size = new System.Drawing.Size(517, 451);
             this.pnDetail.TabIndex = 10;
             // 
             // btnDelete
             // 
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(1043, 628);
+            this.btnDelete.Location = new System.Drawing.Point(831, 492);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(115, 52);
+            this.btnDelete.Size = new System.Drawing.Size(110, 47);
             this.btnDelete.TabIndex = 11;
             this.btnDelete.Text = "Hủy đơn";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -97,7 +97,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(753, 97);
+            this.label2.Location = new System.Drawing.Point(577, 32);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(112, 24);
             this.label2.TabIndex = 12;
@@ -106,17 +106,17 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(280, 135);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(174, 60);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(180, 29);
+            this.label3.Size = new System.Drawing.Size(163, 25);
             this.label3.TabIndex = 13;
             this.label3.Text = "Chi tiết hóa đơn";
             // 
             // tbName
             // 
             this.tbName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbName.Location = new System.Drawing.Point(905, 94);
+            this.tbName.Location = new System.Drawing.Point(729, 29);
             this.tbName.Name = "tbName";
             this.tbName.Size = new System.Drawing.Size(351, 29);
             this.tbName.TabIndex = 14;
@@ -124,7 +124,7 @@
             // btnSearch
             // 
             this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearch.Location = new System.Drawing.Point(1151, 135);
+            this.btnSearch.Location = new System.Drawing.Point(975, 70);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(105, 40);
             this.btnSearch.TabIndex = 21;
@@ -136,7 +136,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(753, 217);
+            this.label6.Location = new System.Drawing.Point(580, 102);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(176, 24);
             this.label6.TabIndex = 22;
@@ -145,17 +145,17 @@
             // dgvOrder
             // 
             this.dgvOrder.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvOrder.Location = new System.Drawing.Point(757, 257);
+            this.dgvOrder.Location = new System.Drawing.Point(581, 138);
             this.dgvOrder.Name = "dgvOrder";
             this.dgvOrder.ReadOnly = true;
-            this.dgvOrder.Size = new System.Drawing.Size(522, 353);
+            this.dgvOrder.Size = new System.Drawing.Size(517, 348);
             this.dgvOrder.TabIndex = 23;
             // 
             // QuanLiOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1297, 692);
+            this.ClientSize = new System.Drawing.Size(1122, 552);
             this.Controls.Add(this.dgvOrder);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnSearch);

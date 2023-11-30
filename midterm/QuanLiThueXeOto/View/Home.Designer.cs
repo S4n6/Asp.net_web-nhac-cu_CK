@@ -57,7 +57,7 @@
             // btnHome
             // 
             this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHome.Location = new System.Drawing.Point(18, 131);
+            this.btnHome.Location = new System.Drawing.Point(18, 56);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(166, 60);
             this.btnHome.TabIndex = 3;
@@ -68,7 +68,7 @@
             // btnCustomer
             // 
             this.btnCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCustomer.Location = new System.Drawing.Point(18, 514);
+            this.btnCustomer.Location = new System.Drawing.Point(18, 330);
             this.btnCustomer.Name = "btnCustomer";
             this.btnCustomer.Size = new System.Drawing.Size(166, 60);
             this.btnCustomer.TabIndex = 2;
@@ -79,7 +79,7 @@
             // btnCar
             // 
             this.btnCar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCar.Location = new System.Drawing.Point(18, 379);
+            this.btnCar.Location = new System.Drawing.Point(18, 228);
             this.btnCar.Name = "btnCar";
             this.btnCar.Size = new System.Drawing.Size(166, 60);
             this.btnCar.TabIndex = 1;
@@ -90,7 +90,7 @@
             // btnOrder
             // 
             this.btnOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOrder.Location = new System.Drawing.Point(18, 252);
+            this.btnOrder.Location = new System.Drawing.Point(18, 140);
             this.btnOrder.Name = "btnOrder";
             this.btnOrder.Size = new System.Drawing.Size(166, 60);
             this.btnOrder.TabIndex = 0;
@@ -100,15 +100,15 @@
             // 
             // pnMain
             // 
-            this.pnMain.Location = new System.Drawing.Point(219, 102);
+            this.pnMain.Location = new System.Drawing.Point(231, 102);
             this.pnMain.Name = "pnMain";
-            this.pnMain.Size = new System.Drawing.Size(1432, 851);
+            this.pnMain.Size = new System.Drawing.Size(1110, 555);
             this.pnMain.TabIndex = 11;
             // 
             // btnLogOut
             // 
             this.btnLogOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogOut.Location = new System.Drawing.Point(1324, 22);
+            this.btnLogOut.Location = new System.Drawing.Point(1215, 31);
             this.btnLogOut.Name = "btnLogOut";
             this.btnLogOut.Size = new System.Drawing.Size(116, 33);
             this.btnLogOut.TabIndex = 9;
@@ -120,16 +120,16 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(541, 22);
+            this.label1.Location = new System.Drawing.Point(494, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(381, 42);
+            this.label1.Size = new System.Drawing.Size(457, 42);
             this.label1.TabIndex = 8;
-            this.label1.Text = "Hãng xe top 1 thế giới";
+            this.label1.Text = "Cửa hàng cho thuê xe ô tô";
             // 
             // btnRegister
             // 
             this.btnRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegister.Location = new System.Drawing.Point(1161, 21);
+            this.btnRegister.Location = new System.Drawing.Point(1044, 31);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(133, 33);
             this.btnRegister.TabIndex = 13;
@@ -152,7 +152,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Turquoise;
-            this.ClientSize = new System.Drawing.Size(1604, 881);
+            this.ClientSize = new System.Drawing.Size(1349, 669);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pnSideBar);
             this.Controls.Add(this.pnMain);

@@ -45,7 +45,7 @@
             // pbImgCar
             // 
             this.pbImgCar.Image = ((System.Drawing.Image)(resources.GetObject("pbImgCar.Image")));
-            this.pbImgCar.Location = new System.Drawing.Point(135, 27);
+            this.pbImgCar.Location = new System.Drawing.Point(128, 14);
             this.pbImgCar.Name = "pbImgCar";
             this.pbImgCar.Size = new System.Drawing.Size(160, 149);
             this.pbImgCar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -55,50 +55,50 @@
             // lbBrandCar
             // 
             this.lbBrandCar.AutoSize = true;
-            this.lbBrandCar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbBrandCar.Location = new System.Drawing.Point(231, 218);
+            this.lbBrandCar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbBrandCar.Location = new System.Drawing.Point(237, 185);
             this.lbBrandCar.Name = "lbBrandCar";
-            this.lbBrandCar.Size = new System.Drawing.Size(92, 25);
+            this.lbBrandCar.Size = new System.Drawing.Size(68, 20);
             this.lbBrandCar.TabIndex = 1;
             this.lbBrandCar.Text = "Hãng xe";
             // 
             // lbStatus
             // 
             this.lbStatus.AutoSize = true;
-            this.lbStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbStatus.Location = new System.Drawing.Point(142, 348);
+            this.lbStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbStatus.Location = new System.Drawing.Point(148, 305);
             this.lbStatus.Name = "lbStatus";
-            this.lbStatus.Size = new System.Drawing.Size(138, 25);
+            this.lbStatus.Size = new System.Drawing.Size(100, 20);
             this.lbStatus.TabIndex = 2;
             this.lbStatus.Text = "Tình trạng xe";
             // 
             // lbTypeCar
             // 
             this.lbTypeCar.AutoSize = true;
-            this.lbTypeCar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTypeCar.Location = new System.Drawing.Point(232, 252);
+            this.lbTypeCar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTypeCar.Location = new System.Drawing.Point(238, 219);
             this.lbTypeCar.Name = "lbTypeCar";
-            this.lbTypeCar.Size = new System.Drawing.Size(82, 25);
+            this.lbTypeCar.Size = new System.Drawing.Size(59, 20);
             this.lbTypeCar.TabIndex = 3;
             this.lbTypeCar.Text = "Loại xe";
             // 
             // lbModelCar
             // 
             this.lbModelCar.AutoSize = true;
-            this.lbModelCar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbModelCar.Location = new System.Drawing.Point(231, 291);
+            this.lbModelCar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbModelCar.Location = new System.Drawing.Point(237, 258);
             this.lbModelCar.Name = "lbModelCar";
-            this.lbModelCar.Size = new System.Drawing.Size(83, 25);
+            this.lbModelCar.Size = new System.Drawing.Size(60, 20);
             this.lbModelCar.TabIndex = 4;
             this.lbModelCar.Text = "Mẫu xe";
             // 
             // lbPrice
             // 
             this.lbPrice.AutoSize = true;
-            this.lbPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbPrice.Location = new System.Drawing.Point(192, 408);
+            this.lbPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPrice.Location = new System.Drawing.Point(192, 356);
             this.lbPrice.Name = "lbPrice";
-            this.lbPrice.Size = new System.Drawing.Size(131, 25);
+            this.lbPrice.Size = new System.Drawing.Size(96, 20);
             this.lbPrice.TabIndex = 5;
             this.lbPrice.Text = "300.000 vnđ";
             // 
@@ -106,7 +106,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(94, 412);
+            this.label3.Location = new System.Drawing.Point(85, 356);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(83, 20);
             this.label3.TabIndex = 6;
@@ -115,34 +115,34 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(102, 218);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(108, 185);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(99, 25);
+            this.label4.Size = new System.Drawing.Size(68, 20);
             this.label4.TabIndex = 9;
             this.label4.Text = "Hãng xe";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(103, 252);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(109, 219);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 25);
+            this.label1.Size = new System.Drawing.Size(59, 20);
             this.label1.TabIndex = 10;
             this.label1.Text = "Loại xe";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(102, 291);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(108, 258);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 25);
+            this.label2.Size = new System.Drawing.Size(60, 20);
             this.label2.TabIndex = 11;
             this.label2.Text = "Mẫu xe";
             // 
-            // OtoUI
+            // DetailCarUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -157,7 +157,7 @@
             this.Controls.Add(this.lbStatus);
             this.Controls.Add(this.lbBrandCar);
             this.Controls.Add(this.pbImgCar);
-            this.Name = "OtoUI";
+            this.Name = "DetailCarUI";
             this.Size = new System.Drawing.Size(416, 463);
             this.Load += new System.EventHandler(this.OtoUI_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbImgCar)).EndInit();
