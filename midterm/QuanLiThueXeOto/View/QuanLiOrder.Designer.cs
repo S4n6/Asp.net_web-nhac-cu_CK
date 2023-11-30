@@ -35,7 +35,7 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.tbName = new System.Windows.Forms.TextBox();
+            this.tbCodeOrder = new System.Windows.Forms.TextBox();
             this.btnSearch = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.dgvOrder = new System.Windows.Forms.DataGridView();
@@ -113,13 +113,13 @@
             this.label3.TabIndex = 13;
             this.label3.Text = "Chi tiết hóa đơn";
             // 
-            // tbName
+            // tbCodeOrder
             // 
-            this.tbName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbName.Location = new System.Drawing.Point(729, 29);
-            this.tbName.Name = "tbName";
-            this.tbName.Size = new System.Drawing.Size(351, 29);
-            this.tbName.TabIndex = 14;
+            this.tbCodeOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbCodeOrder.Location = new System.Drawing.Point(729, 29);
+            this.tbCodeOrder.Name = "tbCodeOrder";
+            this.tbCodeOrder.Size = new System.Drawing.Size(351, 29);
+            this.tbCodeOrder.TabIndex = 14;
             // 
             // btnSearch
             // 
@@ -159,7 +159,7 @@
             this.Controls.Add(this.dgvOrder);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnSearch);
-            this.Controls.Add(this.tbName);
+            this.Controls.Add(this.tbCodeOrder);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnDelete);
@@ -185,7 +185,7 @@
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox tbName;
+        private System.Windows.Forms.TextBox tbCodeOrder;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DataGridView dgvOrder;

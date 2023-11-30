@@ -101,7 +101,26 @@ namespace QuanLiThueXeOto.View
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-
+            string codeOrder = tbCodeOrder.Text;
+            List<OrderCar> orderCars = new List<OrderCar>();
+            if(orderController.getOrderById(int.Parse(codeOrder)) != null)
+            {
+                orderCars.Add(orderController.getOrderById(int.Parse(codeOrder)));
+            }
+            
+            if(orderCars.Count > 0)
+            {
+                dgvOrder.DataSource = orderCars;
+                dgvOrder.Columns["carId"].Visible = false;
+                dgvOrder.Columns["customerId"].Visible = false;
+                //dgvOrder.Columns["carBack"].Visible = false;
+                dgvOrder.CellClick += DgvOrder_CellClick;
+            }
+            else
+            {
+                MessageBox.Show("Không tìm thấy order");
+            }
+            
         }
     }
 }

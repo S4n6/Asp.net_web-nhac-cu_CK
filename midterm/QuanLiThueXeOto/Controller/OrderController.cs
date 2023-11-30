@@ -105,7 +105,7 @@ namespace QuanLiThueXeOto.Controller
                 string locationEnd = row["locationEnd"].ToString();
                 string timeStartStr = row["timeStart"].ToString();
                 DateTime timeStart = DateTime.ParseExact(timeStartStr, "MMM dd yyyy hh:mmtt", CultureInfo.InvariantCulture);
-                string timeEndStr = row["timeStart"].ToString();
+                string timeEndStr = row["timeEnd"].ToString();
                 DateTime timeEnd = DateTime.ParseExact(timeEndStr, "MMM dd yyyy hh:mmtt", CultureInfo.InvariantCulture);
   
 
